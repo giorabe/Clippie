@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content>
+<meta name="author" content>
+<link rel="icon" type="image/png" href="img/logo.jpg">
+<title>Clippie - Bus Booking System</title>
+
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="vendor/icons/icofont.min.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css" />
+
+<link href="css/custom.css" rel="stylesheet">
+
+<link href="vendor/sidebar/demo.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="payment padding-bt">
+<div class="clippie-header-nav shadow-sm p-3 d-flex align-items-center bg-danger">
+<h5 class="font-weight-normal mb-0 text-white">
+<a class="text-danger mr-3" href="select-seat.html"><i class="icofont-rounded-left"></i></a>
+Payment
+</h5>
+</div>
+
+<div class="your-ticket pt-2">
+<div class="p-3">
+<div class="bg-white rounded-1 shadow-sm p-2 mb-2">
+<div class="row mx-0 px-1">
+<div class="col-6 p-0">
+<small class="text-muted mb-1 f-10 pr-1">GOING FROM</small>
+<p class="small mb-0"> Cubao</p>
+</div>
+<div class="col-6 p-0">
+<small class="text-muted mb-1 f-10 pr-1">GOING TO</small>
+<p class="small mb-0"> Baguio</p>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-1 shadow-sm p-2 mb-2 w-100">
+<div class="row mx-0 px-1">
+<div class="col-12 p-0 mb-2">
+<small class="text-danger mb-1 f-10 pr-1">PICKUP FROM</small>
+<p class="small mb-0 l-hght-14"> Terminal, Cubao - 8:15 PM</p>
+</div>
+<div class="col-12 p-0">
+<small class="text-danger mb-1 f-10 pr-1">DROPPING AT</small>
+<p class="small mb-0 l-hght-14">Baguio Mall Road - 7: 00 AM</p>
+</div>
+</div>
+</div>
+<div class="seat-no small pb-2">
+<div class="voucher-code">
+<div class="input-group border-0 shadow-sm bg-white rounded-1">
+<input type="text" class="form-control small form-controlsm border-0 rounded-1" id="inlineFormInputGroup" placeholder="Enter Voucher Code">
+<div class="input-group-prepend m-1">
+<div class="rounded-1 small rounded btn btn-sm btn-warning inpt-group-text shadow-sm text-white border-0">Apply</div>
+</div>
+</div>
+</div>
+</div>
+<div class="list_item d-flex col-12 m-0 p-3 bg-white shadow-sm rounded-1 shadow-sm">
+<div class="d-flex w-100">
+<div class="bus_details w-100">
+<p class="mb-2 l-hght-18 font-weight-bold">Traveller’s Info.</p>
+<div class="l-hght-10 d-flex align-items-center my-2">
+<small class="text-muted mb-0 pr-1">Passenger</small>
+<p class="small mb-0 ml-auto l-hght-14"> Jorge Rabe</p>
+</div>
+<div class="l-hght-10 d-flex align-items-center my-2">
+<small class="text-muted mb-0 pr-1">Ticket Number</small>
+<p class="small mb-0 ml-auto l-hght-14"> 1313</p>
+</div>
+<div class="l-hght-10 d-flex align-items-center my-2">
+<small class="text-muted mb-0 pr-1">Seat No</small>
+<p class="small mb-0 ml-auto l-hght-14"> C1 - C2 - C3</p>
+</div>
+<div class="l-hght-10 d-flex align-items-center mt-3">
+<p class="mb-0 pr-1 font-weight-bold">Amount Paid</p>
+<p class="mb-0 ml-auto l-hght-14 text-danger font-weight-bold">₱700</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="payment-borrad shadow-sm bg-white mt-2 rounded-1">
+<div class="border-bottom p-3">
+<div class="w-100 mastercard custom-control custom-radio custom-control-inline mr-0">
+<input type="radio" id="customRadiomaster1" name="customRadiocard1" class="custom-control-input" checked>
+<label class="custom-control-label small w-100" for="customRadiomaster1">
+<a href="payment-card.html" class="d-flex align-items-start">
+<div class>
+<p class="mb-0 text-dark">Mastercard</p>
+<small class="text-muted">Pay from mastercard account using mastercard payment gateway</small>
+</div>
+<img src="img/master.png" class="img-fluid rounded ml-auto">
+</a>
+</label>
+</div>
+</div>
+<div class="p-3">
+<div class="w-100 visa custom-control custom-radio custom-control-inline mr-0">
+<input type="radio" id="customRadiovisa1" name="customRadiocard1" class="custom-control-input">
+<label class="custom-control-label small w-100" for="customRadiovisa1">
+<a href="payment-card.html" class="d-flex align-items-start">
+<div class>
+<p class="mb-0 text-dark">Visa</p>
+<small class="text-muted">Pay from visa account using visa payment gateway</small>
+</div>
+<img src="img/visa.png" class="img-fluid rounded ml-auto">
+</a>
+</label>
+</div>
+</div>
+<div class="payment-borrad shadow-sm bg-white mt-2 rounded-1">
+    <div class="border-bottom p-3">
+    <div class="w-100 mastercard custom-control custom-radio custom-control-inline mr-0">
+    <input type="radio" id="customRadiomaster1" name="customRadiocard1" class="custom-control-input" checked>
+    <label class="custom-control-label small w-100" for="customRadiomaster1">
+    <a href="payment-card.html" class="d-flex align-items-start">
+    <div class>
+    <p class="mb-0 text-dark">Over-The-Counter</p>
+    <small class="text-muted">Visit Bus Terminal to pay your seat reservation</small>
+    </div>
+    <img src="#" class="img-fluid rounded ml-auto">
+    </a>
+    </label>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="fixed-bottom view-seatbt p-3">
+<a href="payment-card.html" class="btn btn-warning btn-block d-flex align-items-center clippiebus-btn rounded-1">
+<span class="text-left l-hght-14">
+TOTAL ₱700<br>
+<small class="f-10 text-white-50">Seats Selected : 3</small>
+</span>
+<span class="font-weight-bold ml-auto">CONFIRM</span>
+</a>
+</div>
+<script src="vendor/jquery/jquery.min.js" type="16546e40232efab15ed0d51f-text/javascript"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="16546e40232efab15ed0d51f-text/javascript"></script>
+
+<script type="16546e40232efab15ed0d51f-text/javascript" src="vendor/slick/slick.min.js"></script>
+
+<script type="16546e40232efab15ed0d51f-text/javascript" src="vendor/sidebar/hc-offcanvas-nav.js"></script>
+
+<script src="js/custom.js" type="16546e40232efab15ed0d51f-text/javascript"></script>
+<script src="https://askbootstrap.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="16546e40232efab15ed0d51f-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vedd3670a3b1c4e178fdfb0cc912d969e1713874337387" integrity="sha512-EzCudv2gYygrCcVhu65FkAxclf3mYM6BCwiGUm6BEuLzSb5ulVhgokzCZED7yMIkzYVg65mxfIBNdNra5ZFNyQ==" data-cf-beacon='{"rayId":"87f3288c3fc744b1","version":"2024.4.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}' crossorigin="anonymous"></script>
+</body>
+</html>
